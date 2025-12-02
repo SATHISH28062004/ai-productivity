@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+/client/node_modules
+
+# Environment Variables (CRITICAL: Never commit secrets)
+.env
+
+# Build/Deployment output
+/client/build
+/build
+/dist
+
+# Log files
+npm-debug.log*
